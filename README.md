@@ -7,5 +7,5 @@
 const Pokes = require("po-kes")  // - Setting "po-kes".
 let joke = Piadas.Joke(pt)  // - Return a random Joke in Portuguese, default language is "pt (Português-Brasil)".
 console.log(joke)  // - [Logged]: "Você conhece a piada do pônei? Pô nei eu...
-
+```
 _Currently this package has the languages: **portuguese** and **english**. (in use: **pt** to portuguese, or **en** to english)_
