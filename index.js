@@ -1,4 +1,4 @@
-const JokesJS = require("./src/JokesJS/jokes.js")
+const JokesJS = require("./src/Kiddings/jokes.js")
 
 class Jokes {
   constructor() {
