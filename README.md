@@ -5,5 +5,5 @@
 > To return a random joke, follow this exemple:
 ```javascript
 const Pokes = require("po-kes")  // Setting "po-kes".
-let joke = Piadas.Joke(pt)  // Return a random Joke in English.
-console.log(joke)  // [Logged]: "Você conhece a piada do pônei? Pô nei eu...```
+let joke = Piadas.Joke(pt)  // Return a random Joke in Portuguese, default language is "pt (Português-Brasil)".
+console.log(joke)  // [Logged]: "Você conhece a piada do pônei? Pô nei eu...
