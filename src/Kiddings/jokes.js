@@ -1,3 +1,6 @@
 module.exports = {
-  jokes: ["A", "B"]
+  jokes: {
+    "pt": ["A", "B"],
+    "en": ["C", "D"]
+  }
 }
