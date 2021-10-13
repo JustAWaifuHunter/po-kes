@@ -1,6 +1,6 @@
 module.exports = {
   jokes: {
-    "pt": ["A", "B"],
+    "pt": ["Você conhece a piada do pônei? Pô nei eu...", "B"],
     "en": ["C", "D"]
   }
 }
