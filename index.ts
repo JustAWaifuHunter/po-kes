@@ -1,7 +1,7 @@
 /* Jokes - Part 1 of Index. */
-const JokesJS = require("./src/Kiddings/jokes.js");
+import JokesJS = require("./src/Kiddings/jokes.js");
 
-function Joke(lang: string, x: number) {
+function Joke(lang: "pt" | "en", x: number) {
   /* Language Select or Default: Portuguese. */
   let language;
   if (!lang || lang == 'pt') {
@@ -18,3 +18,5 @@ function Joke(lang: string, x: number) {
     return JokesJS.jokes["pt"][rand]
   }
 }
+
+export = Joke
